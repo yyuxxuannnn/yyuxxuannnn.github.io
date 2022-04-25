@@ -1,0 +1,112 @@
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="style.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Gaming </title>
+	
+
+</head>
+
+<body>
+<a name="top"></a>
+<!--Navigation--->
+		<nav>
+			<a href="Index.html"><img src="img\main.png"></a>
+			<div class = "nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="Index.html">Introduction</a></li>
+						<li><a href="#top">Game Industry</a></li>
+						<li><a href="InC.html">Issues & Controversy</a></li>
+						<li><a href="Craze.html">Craze Genre</a></li>
+						<li><a href="Effect.html">Effect & Suggestion</a></li>
+					</ul>
+			</div>
+			<i class= "fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	
+
+	
+	<!--JavaScript for Toggle Menu-->	
+	<script>
+		document.getElementById('navLinks');
+		function showMenu(){
+			navLinks.style.right="0";
+		}
+		function hideMenu(){
+			navLinks.style.right="-200px";
+		}
+
+	</script>
+</nav>
+
+<!--Welcome Section--->
+<div class="container-fluid padding py-5">
+<div class="row welcome text-center">
+</div>
+</div>
+<div class="container-fluid padding py-5">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="display-4">Covid-19 Impact on Gaming Industry</h1>
+	</div>
+	<hr>
+	<div class="col-12">
+		<p class="lead">Growth in the gaming industry after Covid-19</p>
+	</div>
+</div>
+</div>
+
+<!--Two Column Section--->
+<div class="container-fluid padding text-white" style="background-color:67092d;">
+<div class="row text-center padding">
+	<div class="col-xs-12 col-sm-6 col-md-4">
+	<hr>
+		<img src="img/Gaming2.jpg" alt="gaming_setup" height="440">
+		<hr>
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-6 py-5 text-left">
+		<p style="font-size:18px; padding:70px 0;">When the COVID-19 pandemic outbreak hit the world in early 2020, a lockdown order was imposed, forcing individuals to stay at home and unable to work. With limited activities, gaming has emerged as one of the most popular ways for people to spend their time. Unlike many other economic sectors that have been severely impacted by the pandemic, the video game industry has shown to be more resilient.</p>
+		</br>
+		<a href="https://www.gamesindustry.biz/articles/2020-08-11-the-impact-of-covid-19-on-mobile-games-in-h1-2020-and-beyond" class="hero-btn">See Article on Gaming Industry Growth Statistic</a>
+	</div>
+</div>
+</div>
+
+<!--Cards--->
+<div class="container-fluid padding py-5">
+<div class="row padding">
+	<div class="col-md-8">
+		<div class="card">
+			<div class="card-body">
+				<h1 class="card-title"> 196,000,000,000 USD</h1>
+				<p class="card-text"> GLOBAL VIDEO GAME MARKET VALUE IN 2022</p>
+				<h1 class="card-title"> 39%</h1>
+				<p class="card-text"> GLOBAL INCREASE IN TIME SPENT VIDEO GAMING DURING THE COVID-19 PANDEMIC</p>
+				</br>
+				</br>
+				<a href="https://www.forbes.com/sites/forbestechcouncil/2021/06/17/how-the-gaming-industry-has-leveled-up-during-the-pandemic/?sh=4aae9ca3297c" class="hero-btn-2">See Related News</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<img src="img/Gaming1.jpg" class="img-fluid" style="border-radius:5px;">
+	</div>
+</div>
+</div>
+<a class="gotopbtn" href= "#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+</body>
+
+</html>
